@@ -1,0 +1,31 @@
+.nav {
+  
+  float: right;
+
+  ul {
+    list-style: none;
+    padding-top: 3px;
+
+    li {
+      display: inline-block;
+      border-radius: $borderRadius;
+      padding: 8px;
+      padding-left: 15px;
+      padding-right: 15px;
+      
+
+     
+      a {
+        font-family: 'TitilliumWeb', sans-serif;
+        color: $whiteColor;
+        font-size: 15px;
+        text-decoration: none;
+      }
+      
+
+    }
+    .firstLi {
+      background-color: #643a79;
+    }
+  }
+}

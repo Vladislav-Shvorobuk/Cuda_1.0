@@ -1,3 +1,19 @@
-h1 {
-    color: red;
+.header {
+    .container {
+        background-color: $headerColor;
+        padding-top: $paddingTop;
+        padding-left: $paddingLeft;
+        padding-right: $paddingRight;
+        padding-bottom: 140px;
+        .logo {
+            display: inline-block;
+            ul {
+                li {
+                    display: inline-block;
+                }
+            }
+        }
+        @import '_nav.scss';
+        @import '_jumbotron.scss';
+    }
 }

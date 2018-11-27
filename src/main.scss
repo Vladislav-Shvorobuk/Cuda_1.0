@@ -1,8 +1,17 @@
-
+$headerColor: #87509c;
+$whiteColor: white;
+$serviceColor: #17c2a4;
+$paddingTop: 55px;
+$paddingLeft: 212px;
+$paddingRight: 212px;
+$borderRadius: 5%;
 
 @import "_reset.scss";
 @import "_header.scss";
-body {
-  background-color: $background-color;
-  font-family: sans-serif;
-} 
+@import "_services.scss";
+@import "_footer.scss";
+
+@import '_breakpoints.scss';
+@import './modules/_typography.scss';
+@import './modules/_buttons.scss';
+

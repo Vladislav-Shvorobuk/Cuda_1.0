@@ -1,0 +1,79 @@
+.skills {
+        
+    .container {
+        padding-top: 110px;
+        padding-bottom: 130px;
+        background-color: $whiteColor;
+        text-align: center;
+
+        .headline {
+            text-align: center;
+            margin-bottom: 90px;
+            h1 {
+                font-family: 'TitilliumWeb', sans-serif;
+                font-size: 40px;
+                color: $bluerColor; 
+            }
+            .line {
+                height: 4px;
+                width: 87px;
+                background-color: #dfe8ed;
+                z-index: 100;
+                margin: auto;
+                margin-top: 13px;
+                margin-bottom: 19px;
+            }
+            p {
+                font-family: 'TitilliumWeb', sans-serif;
+                color: $bluerColor;
+                font-size: 18px;
+                margin-bottom: 4px;
+            }      
+        }
+
+        .skills_progress {
+            width: 100%;
+
+            .skill_progress_progress {
+                display: inline-block;
+                text-align: center;
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-bottom: 80px;                
+                .progress {
+                    padding: 50px;
+                    width: 160px;
+                    height: 160px;
+                    margin-bottom: 30px;
+                    .percent {
+                        font-family: 'Roboto_regular', sans-serif;
+                        font-size: 45px;
+                        color: $bluerColor;
+                    }
+                }
+                h3 {
+                    color: $bluerColor;
+                    font-family: 'TitilliumWeb', sans-serif;
+                    font-weight: 700;
+                }
+                .web_design {
+                    background-image: url("/images/Progress.png");
+                }
+                .html_css {
+                    background-image: url("/images/Progress2.png");
+                }
+                .graphic {
+                    background-image: url("/images/Progress3.png");
+                }
+                .ui_ux {
+                    background-image: url("/images/Progress4.png");
+                }
+                
+            }
+           
+            
+        }
+      
+    }
+
+}

@@ -2,22 +2,20 @@
 
     .container {
         padding-top: 114px;
-        padding-bottom: 127px;
+        padding-bottom: 124px;
         padding-left: $paddingLeft;
         padding-right: $paddingRight;
         background-color: $teamColor;
         text-align: center;
       
-      
-
         .headline {
             text-align: center;
             h1 {
                 font-family: 'TitilliumWeb', sans-serif;
                 font-size: 40px;
                 color: $bluerColor; 
-                letter-spacing: 3px;
             }
+           
             .line {
                 height: 4px;
                 width: 87px;
@@ -25,7 +23,7 @@
                 z-index: 100;
                 margin: auto;
                 margin-top: 13px;
-                margin-bottom: 19px;
+                margin-bottom: 23px;
             }
             p {
                 font-family: 'TitilliumWeb', sans-serif;
@@ -59,6 +57,7 @@
                     font-family: 'TitilliumWeb', sans-serif;
                     color: #6dcced;
                     font-size: 16px;
+                    font-weight: 100;
                     margin-bottom: 23px;
                 }
                 
@@ -72,7 +71,7 @@
                 .icons{
                     text-align: center;
                     padding-top: 20px;
-                    margin-bottom: 60px;
+                    padding-bottom: 80px;    
                     .icons_icon {
                         display: inline-block;
                         background-color: #bdd1df;

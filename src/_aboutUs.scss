@@ -1,0 +1,109 @@
+.aboutUs {
+        
+    .container {
+        padding-top: 110px;
+        padding-bottom: 130px;
+        background-color: $aboutUsColor;
+        text-align: center;
+
+        .headline {
+            text-align: center;
+            margin-bottom: 60px;
+            h1 {
+                font-family: 'TitilliumWeb', sans-serif;
+                color:  $whiteColor;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 29.907px;
+                text-align: center;
+                padding-bottom: 21px;
+            }
+            .line {
+                height: 4px;
+                width: 87px;
+                background-color: #b73c6d;
+                z-index: 100;
+                margin: auto;
+                margin-top: 13px;
+                margin-bottom: 19px;
+            }
+            p {
+                font-family: 'TitilliumWeb', sans-serif;
+                color:  $whiteColor;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 26px;
+                text-align: center;
+            }      
+        }
+
+        .comments {
+            padding-bottom: 131px;
+            .comments_comment {
+                display: inline-block;
+                text-align: center;
+                padding-bottom: 80px;
+                margin-left: 10px;
+                margin-right: 10px;
+                .ava {
+                    border-radius: 50%;
+                    background-color:  #787878;
+                    width: 96px;
+                    height: 96px;
+                    float: left;
+                    margin-left: 10px;
+                }
+                .quote {
+                    padding-top: 10px;
+                    padding-left: 31px;
+                    padding-right: 30px;
+                    width: 405px;
+                    float: right;
+                    text-align: left;
+                    .quote_text {
+                        margin-bottom: 29px;
+                        font-family: 'TitilliumWeb';
+                        color:  $whiteColor;
+                        font-size: 21px;
+                        font-style: italic;
+                        line-height: 26px;
+                    }
+                    h4{
+                        font-family: 'TitilliumWeb';
+                        color:  $whiteColor;
+                        font-size: 24px;
+                        font-weight: 700;
+                        line-height: 26px;
+                    }
+                    h5{
+                        font-family: 'TitilliumWeb';
+                        color:  #ffdd99;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 26px;
+                    }
+                }
+            }
+        }
+
+        .sites {
+            width: 100%;
+            text-align: center;
+
+            .sites_site {
+                display: inline-block;
+                padding-bottom: 80px;  
+                img {
+                    margin-bottom: 30px;
+                }
+                h3 {
+                    color:  #393939;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 19.5px;
+                }
+            }
+        }
+    }
+
+}

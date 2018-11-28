@@ -5,6 +5,7 @@ $bluerColor: #3c4761;
 $teamColor: #e7f1f8;
 $portfolioColor: #ffdd99;
 $aboutUsColor: #d74680;
+$getInTouchColor: #3c5499;
 $firstButtonColor: #eb7d4b;
 $secondButtonColor: #17c2a4;
 
@@ -21,6 +22,7 @@ $borderRadius: 5%;
 @import "_skills.scss";
 @import "_portfolio.scss";
 @import "_aboutUs.scss";
+@import "_getInTouch.scss";
 @import "_footer.scss";
 
 @import '_breakpoints.scss';

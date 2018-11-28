@@ -1,12 +1,109 @@
-// @media only screen and (min-width:320px) {
+@media only screen and (min-width:320px) {
+    body {
+        min-width: 320px;
+    }
+    .container {
+        min-width: 320px;
+    }
+    .getInTouch {
+        .container {
+            form {
+                .input_left, .input_right {
+                    float: none;
+                    display: block;
+                    width: 100%
+                }
+            }
+        }
+    }
 
-// }
-@media only screen and (min-width:480px) {
+    .portfolio {
+        .container {
+            .sites {
+                .sites_site {
+                    img {
+                        width: 70%;
+                    }
+                }
+              
+            }
+        }
+    }
 
+    .aboutUs {
+        .container {
+            .comments {
+                .comments_comment {
+                    text-align: center;
+                    .ava {
+                        display: inline-block;
+                        float: none;
+                    }
+                    .quote {
+                        display: block;
+                        float: none;
+                    }
+                }
+            }
+        }
+    }
 }
-// @media only screen and (min-width:768px) {
+@media only screen and (min-width:480px) {
+    // .getInTouch {
+    //     .container {
+    //         form {
+    //             .input_left, .input_right {
+    //                 float: none;
+    //                 display: block;
+    //                 width: 100%
+    //             }
+    //         }
+    //     }
+           
+    // }
+}
+@media only screen and (min-width:768px) {
 
-// }
+    .getInTouch {
+        .container {
+            form {
+                input {
+                    display: inline-block;
+                }
+                .input_left {
+                    float: left;
+                    width: 47%;
+                    
+                }
+                .input_right {
+                    float: right;
+                    width: 47%;
+                    
+                }
+            }
+        }
+    }
+
+    .aboutUs {
+        .container {
+            .comments {
+                .comments_comment {
+                    text-align: center;
+                    .ava {
+                        display: inline-block;
+                        float: left;
+                    }
+                    .quote {
+                        display: inline-block;
+                        float: right;
+                    }
+                }
+            }
+        }
+    }
+
+  
+}
 @media only screen and (min-width:1024px) {
 
 }

@@ -42,6 +42,7 @@
                     .quote {
                         display: block;
                         float: none;
+                      
                     }
                 }
             }
@@ -90,11 +91,9 @@
                 .comments_comment {
                     text-align: center;
                     .ava {
-                        display: inline-block;
                         float: left;
                     }
                     .quote {
-                        display: inline-block;
                         float: right;
                     }
                 }

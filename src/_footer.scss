@@ -1,9 +1,29 @@
 .footer {
-
     .container {
-        background-color: blue;
-        height: 100px;
-        z-index: 1;
+        background-color: $footerColor;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        .links {
+            text-align: center;
+            a {
+                text-decoration: none;
+                font-family: TitilliumWeb;
+                color:  $whiteColor;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 29.907px;
+                text-align: center;
+                margin-left: 25px;
+                margin-right: 25px;
+            }
+            .link {
+                margin-bottom: 40px;
+            }
+            .twitter {
+                color:  #30bae7;
+
+            }
+        }
     }
   
 }

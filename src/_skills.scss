@@ -50,9 +50,13 @@
                     height: 160px;
                     margin-bottom: 30px;
                     .percent {
-                        font-family: 'Roboto_regular', sans-serif;
-                        font-size: 45px;
-                        color: $bluerColor;
+                        text-align: center;
+                        font-family: 'TitilliumWeb', sans-serif;
+                        color:  #3c4761;
+                        font-size: 50px;
+                        font-weight: 300;
+                        margin-left: -10px;
+                        
                     }
                 }
                 h3 {

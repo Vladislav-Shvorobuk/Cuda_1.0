@@ -1,0 +1,80 @@
+.portfolio {
+        
+    .container {
+        padding-top: 110px;
+        padding-bottom: 130px;
+        padding-left: $paddingLeft -10;
+        padding-right: $paddingRight -10;
+        background-color: $portfolioColor;
+        text-align: center;
+
+        .headline {
+            text-align: center;
+            margin-bottom: 47px;
+            h1 {
+                font-family: 'TitilliumWeb', sans-serif;
+                font-size: 40px;
+                color: #393939; 
+            }
+            .line {
+                height: 4px;
+                width: 87px;
+                background-color: #e5c37f;
+                z-index: 100;
+                margin: auto;
+                margin-top: 13px;
+                margin-bottom: 19px;
+            }
+            p {
+                font-family: 'TitilliumWeb', sans-serif;
+                color: #393939;
+                font-size: 18px;
+                margin-bottom: 4px;
+            }      
+        }
+
+        .filters {
+            padding-bottom: 60px;
+            .filters_filter {
+                margin-left: 4px;
+                margin-right: 4px;
+                border-radius: 4px;
+                border: 0;
+                background-color:  rgba(0, 0, 0, 0.08);
+                padding: 10px;
+                padding-left: 27px;
+                padding-right: 27px;
+                display: inline-block;
+                font-family: 'TitilliumWeb', sans-serif;
+                color:  #393939;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 19.5px;
+                text-align: center;
+            }
+            .first {
+                background-color: $whiteColor;
+            }
+        }
+
+        .sites {
+            width: 100%;
+            text-align: center;
+
+            .sites_site {
+                display: inline-block;
+                padding-bottom: 80px;  
+                img {
+                    margin-bottom: 30px;
+                }
+                h3 {
+                    color:  #393939;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 19.5px;
+                }
+            }
+        }
+    }
+
+}

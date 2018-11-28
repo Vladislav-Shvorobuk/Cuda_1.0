@@ -3,6 +3,9 @@ $whiteColor: white;
 $serviceColor: #17c2a4;
 $bluerColor: #3c4761;
 $teamColor: #e7f1f8;
+$portfolioColor: #ffdd99;
+$firstButtonColor: #eb7d4b;
+$secondButtonColor: #17c2a4;
 $paddingTop: 55px;
 $paddingLeft: 212px;
 $paddingRight: 212px;
@@ -14,6 +17,7 @@ $borderRadius: 5%;
 @import "_services.scss";
 @import "_team.scss";
 @import "_skills.scss";
+@import "_portfolio.scss";
 @import "_footer.scss";
 
 @import '_breakpoints.scss';

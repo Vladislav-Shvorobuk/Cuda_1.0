@@ -2,6 +2,11 @@
     body {
         min-width: 320px;
     }
+    .header {
+        .nav {
+            display: none;
+        }
+    }
     .container {
         min-width: 320px;
     }
@@ -65,6 +70,8 @@
 }
 @media only screen and (min-width:768px) {
 
+    
+
     .getInTouch {
         .container {
             form {
@@ -103,6 +110,33 @@
 
   
 }
+
+@media only screen and (min-width:870px) {
+    .header {
+        .hamburger {
+            display: none;
+        }
+        .nav {
+            display: block;
+        }
+    }
+    .header {
+        .nav {
+            
+            ul {
+                display: inline-block;
+                li {
+
+                }
+            }
+        }
+    
+    }
+    
+    
+}
+
+
 @media only screen and (min-width:1024px) {
 
 }

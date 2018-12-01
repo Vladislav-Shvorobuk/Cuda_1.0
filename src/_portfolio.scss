@@ -40,10 +40,12 @@
         }
 
         .filters {
-            padding-bottom: 60px;
+            margin-bottom: 42px;
             padding-left: 120px;
             padding-right: 120px;
+        
             .filters_filter {
+                font-stretch: initial;
                 margin-left: 4px;
                 margin-right: 4px;
                 padding-left: 27px;
@@ -74,21 +76,22 @@
             .sites_site {
                 display: inline-block;
                 img {
-                    margin-bottom: 30px;
+                    margin-bottom: 25px;
                 }
                 h3 {
+                    font-family: 'TitilliumWeb', sans-serif;
                     color:  #393939;
                     font-size: 18px;
                     font-weight: 400;
                     line-height: 19.5px;
                     margin-left: 30px;
                     margin-right: 30px;
-                    margin-bottom: 60px;
+                    margin-bottom: 62px;
                 }
             }
         }
         .green {
-            margin-bottom: 110px;
+            margin-bottom: 108px;
         }
     }
 

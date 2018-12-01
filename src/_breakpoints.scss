@@ -166,6 +166,8 @@
             .comments {
                 .comments_comment {
                     text-align: center;
+                    margin-right: 35px;
+                    margin-left: 35px;
                     .ava {
                         display: inline-block;
                         float: none;
@@ -416,6 +418,7 @@
                     margin-right: 0;
                     .ava{
                        float: left;
+                       margin-right: 50px;
                     }
                     .quote {
                         float: right;
@@ -493,8 +496,14 @@
    .aboutUs {
     .container {
         width: 1440px;
-        padding-left: 170px;
-        padding-right: 170px;
+        padding-left: 90px;
+        padding-right: 90px;
+        .comments {
+            .comments_comment {
+                margin-right: -5px;
+                margin-left: 35px;
+            }
+        }
         
     }
    }

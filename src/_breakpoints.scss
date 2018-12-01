@@ -7,6 +7,9 @@
    
     .header {
         .container{
+            .logo {
+                margin-left: 20%;
+            }
             .nav {
                 display: none;
             }
@@ -19,6 +22,8 @@
             .text{
                 h2 {
                     font-size: 30px;
+                    margin-left: 30px;
+                    margin-right: 30px;
                 }
             }
         }
@@ -290,13 +295,34 @@
 }
 
 @media only screen and (min-width:870px) {
+
+    .container {
+        width: 100%;
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: $paddingLeft - 100px;
+        padding-right: $paddingRight - 100px;
+    }
+
+
+
     .header {
         .container{
+            .logo {
+                margin-left: 0px;
+            }
             .hamburger{
                 display: none;
             }
             .nav {
                 display: block;
+                // ul {
+                //     li {
+                //         width: 60px;
+                //         height: 28px;
+                //     }
+                // }
             }
          
         }

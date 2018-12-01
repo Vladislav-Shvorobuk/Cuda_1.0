@@ -1,11 +1,14 @@
 @font-face {
-    font-family: 'TitilliumWeb', sans-serif;
-    src: url('/src/fonts/TitilliumWeb.ttf');
-
+    font-family: 'TitilliumWebBold', sans-serif;
+    src: url('/fonts/tittiliumwebbold.ttf');
+}
+@font-face {
+    font-family: 'TitilliumWebSemiBold', sans-serif;
+    src: url('/fonts/titilliumwebsemibold.ttf');
 }
 @font-face {
     font-family: 'Roboto_regular', sans-serif;
-    src: url('/src/fonts/Roboto-Regular.ttf');
+    src: url('/fonts/Roboto-Regular.ttf');
 
 }
 

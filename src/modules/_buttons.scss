@@ -20,7 +20,25 @@
 .green {
     border: none;
     border-radius: 4px;
-    background-color: $secondButtonColor;
+    background-color: $secondButtonColor;   
+    width: 293px;
+    height: 70px;
+    font-family: 'TitilliumWebSemiBold', sans-serif;
+    color:  $whiteColor;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: center;
+
+    -webkit-box-shadow: 0px 6px 4px -1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 6px 4px -1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 6px 4px -1px rgba(0, 0, 0, 0.15);
+}
+
+.blue {
+    border: none;
+    border-radius: 4px;
+    background-color: $thirdButtonColor;   
     width: 293px;
     height: 70px;
     font-family: 'TitilliumWebSemiBold', sans-serif;

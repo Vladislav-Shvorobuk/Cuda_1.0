@@ -318,18 +318,11 @@
             .logo {
                 margin-left: 0px;
             }
-            .hamburger{
+            .ham {
                 display: none;
             }
             .nav {
                 display: block;
-                // ul {
-                //     li {
-                //         width: 60px;
-                //         height: 28px;
-                //     }
-                // }
-            }
          
         }
     }
@@ -356,8 +349,8 @@
             }
             .services_options{
                 .services_oprions_option {
-                    .text{
-                        p{
+                    .text {
+                        p {
                             font-size: 16px;
                         }
                     }
@@ -367,22 +360,22 @@
         }
     }
 
-    .skills{
-        .container{
-            .headline{
+    .skills {
+        .container {
+            .headline{ 
                 h1 {
                     font-size: 38px;
                 }
-                p{
+                p {
                     font-size: 18px;
                 }
             }
         }
     }
 
-    .portfolio{
-        .container{
-            .headline{
+    .portfolio {
+        .container {
+            .headline {
                 h1 {
                     font-size: 38px;
                 }
@@ -400,9 +393,9 @@
         }
     }
 
-    .aboutUs{
-        .container{
-            .headline{
+    .aboutUs {
+        .container {
+            .headline {
                 h1 {
                     font-size: 38px;
                 }
@@ -507,7 +500,6 @@
         
     }
    }
+ }
 }
-// @media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
 
-// }

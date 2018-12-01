@@ -1,5 +1,6 @@
 
 .ham{
+  padding-bottom: 30px;
   .fas {
     color: #643a79;
     font-size: 45px;
@@ -8,7 +9,6 @@
     position: absolute;
     top: 55px;
     left: 80%;
-    margin-bottom: 100px;
   }
 }
 
@@ -16,15 +16,13 @@
 .navForHam {
   display: none;
   list-style: none;
-  padding-top: 3px;
-
+  line-height: 80px;
     li {
       border-radius: $borderRadius;
       width: 77px;
       height: 32px;
-      line-height: 32px;
       text-align: center;
-      
+      padding-top: 25px;
       a {
         font-family: 'TitilliumWeb', sans-serif;
         color: $whiteColor;
@@ -39,24 +37,17 @@
   display: block;
   text-align: left;
   padding-left: 20%;
-  padding-top: 50px;
   li {
     border-radius: $borderRadius;
     width: 77px;
     height: 32px;
-    line-height: 32px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     a {
       font-size: 32px;
 
     }
   
   }
-
-}
-.ham:hover {
-
-  height: 100%;
 
 }
 

@@ -2,13 +2,12 @@
     .container {
         background-color: $headerColor;
         padding-top: $paddingTop;
-        padding-bottom: 152px;
+        
 
         .logo {
             display: inline-block;
             margin-left: 20%;
         }
         @import '_nav.scss';
-        @import '_jumbotron.scss';
     }
 }

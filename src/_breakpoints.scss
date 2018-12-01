@@ -10,14 +10,19 @@
             .nav {
                 display: none;
             }
-            .jumbotron {
-                .text{
-                    h2 {
-                        font-size: 30px;
-                    }
+            
+        }
+    }
+
+    .jumbotron {
+        .container{
+            .text{
+                h2 {
+                    font-size: 30px;
                 }
             }
         }
+     
     }
 
     .services{
@@ -293,14 +298,18 @@
             .nav {
                 display: block;
             }
-            .jumbotron {
-                .text{
-                    h2 {
-                        font-size: 38px;
-                    }
+         
+        }
+    }
+    .jumbotron {
+        .container {
+            .text{
+                h2 {
+                    font-size: 38px;
                 }
             }
         }
+     
     }
 
     .services{

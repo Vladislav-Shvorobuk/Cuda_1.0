@@ -2,7 +2,6 @@
         
     .container {
         padding-top: 112px;
-        // padding-bottom: 130px;
         background-color: $serviceColor;
         text-align: center;
       
@@ -43,7 +42,7 @@
             .services_oprions_option {
               text-align: center;
               display: inline-block;
-              margin-left: 30px;
+              margin-left: 26px;
               margin-right: 26px;
                          
              
@@ -51,7 +50,9 @@
                   margin-bottom: 52px;
               }
               h1 {
-                font-size: 23px;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 29.907px;
                 font-family: 'TitilliumWebBold', sans-serif;
                 color: $whiteColor;
                 margin-bottom: 20px;

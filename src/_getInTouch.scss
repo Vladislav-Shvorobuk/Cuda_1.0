@@ -1,6 +1,5 @@
 .getInTouch {
         
-    .container {
         padding-top: 114px;
         background-color: $getInTouchColor;
         text-align: center;
@@ -20,9 +19,7 @@
                 background-color:  #273a71;
                 width: 87px;
                 height: 4px;
-                margin: auto;
-                margin-top: 0px;
-                margin-bottom: 19px;
+                margin: 0 auto 19px;
             }
             p {
                 font-family: 'TitilliumWeb', sans-serif;
@@ -31,8 +28,7 @@
                 font-weight: 400;
                 line-height: 26px;
                 text-align: center;
-                margin-left: 30px;
-                margin-right: 30px;
+                margin: 0 30px;
             }      
         }
         form {
@@ -97,10 +93,5 @@
             }
             
         }
-       
-
-        
-
-    }
 
 }

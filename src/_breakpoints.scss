@@ -6,19 +6,18 @@
     
    
     .header {
-        .container{
+            padding-left: 0px;
+            padding-right: 0px;
+            
             .logo {
                 margin-left: 20%;
             }
             .nav {
                 display: none;
             }
-            
-        }
     }
 
     .jumbotron {
-        .container{
             .text{
                 h2 {
                     font-size: 30px;
@@ -26,12 +25,9 @@
                     margin-right: 30px;
                 }
             }
-        }
-     
     }
 
     .services{
-        .container {
             .headline {
                 h1 {
                     font-size: 30px;
@@ -40,9 +36,10 @@
                     font-size: 23px;
                 }
             }
-            .services_options{
+            .services_options {
                 .services_oprions_option {
                     .text{
+                        width: 280px;
                         p{
                             font-size: 21px;
                         }
@@ -50,12 +47,10 @@
                 }
              
             }
-        }
     }
 
-    .skills{
-        .container{
-            .headline{
+    .skills {
+            .headline {
                 h1 {
                     font-size: 30px;
                 }
@@ -63,11 +58,9 @@
                     font-size: 23px;
                 }
             }
-        }
     }
 
     .portfolio{
-        .container{
             .headline{
                 h1 {
                     font-size: 30px;
@@ -80,11 +73,9 @@
                 padding-left: 30px;
                 padding-right: 30px;
             }
-        }
     }
 
     .aboutUs{
-        .container{
             .headline{
                 h1 {
                     font-size: 30px;
@@ -93,11 +84,9 @@
                     font-size: 23px;
                 }
             }
-        }
     }
 
     .team {
-        .container{
             .headline {
                 h1{
                     font-size: 30px;
@@ -123,13 +112,12 @@
                     }
                 }
             }
-        }
     }
 
 
 
     .getInTouch {
-        .container {
+
             .headline {
                 h1{
                     font-size: 30px;
@@ -145,11 +133,9 @@
                     width: 100%
                 }
             }
-        }
     }
 
     .portfolio {
-        .container {
             .sites {
                 .sites_site {
                     img {
@@ -158,11 +144,9 @@
                 }
               
             }
-        }
     }
 
     .aboutUs {
-        .container {
             .comments {
                 .comments_comment {
                     text-align: center;
@@ -177,66 +161,45 @@
                         float: none;
                         text-align: center;
                         width: 100%;
-                      
-                        .quote_text_320_420 {
-                            
-                            display: block;
-                            margin-bottom: 29px;
-                            font-family: 'TitilliumWeb';
-                            color:  $whiteColor;
-                            font-size: 21px;
-                            font-style: italic;
-                            line-height: 26px;   
-                        }
-                        .quote_text{
-                            display: none;
-                        }
                     }
 
                 }
             }
-        }
     }
 }
 @media only screen and (min-width:480px) {
 
    
     .aboutUs {
-        .container {
+
             .comments {
                 .comments_comment {
                     .ava {
                         margin-right: 0px;
                     }
                     .quote {
-                        text-align: left;
-                        .quote_text_320_420 {
-                            display: none;
-                           
+                        text-align: center;
+                        .quote_text {
+                            width: 370px;
                         }
-                        .quote_text{
-                            display: block;
-                        }
-                      
                     }
 
                 }
             }
         }
-    }
-
 }
 
 
 .team {
-    .container{
         .team_members{
             .team_members_member{
             padding-left: 74px;
             padding-right: 74px;
+            p {
+                width: 240px;
+            }
             }
         }
-    }
 }
 
 
@@ -246,10 +209,19 @@
 
 
 @media only screen and (min-width:768px) {
-   
 
+   
+    .services {
+        .services_options{
+            .services_oprions_option {
+                .text {
+                    width: 270px;
+                }
+            }
+         
+        }
+    }
     .getInTouch {
-        .container {
             form {
                 input {
                     display: inline-block;
@@ -265,11 +237,9 @@
                     
                 }
             }
-        }
     }
 
     .aboutUs {
-        .container {
             .comments {
                 .comments_comment {
                     text-align: center;
@@ -283,18 +253,18 @@
                     }
                 }
             }
-        }
     }
 
     .team {
-        .container{
             .team_members{
                 .team_members_member{
                 padding-left: 20px;
                 padding-right: 20px;
+                p {
+                    width: 270px;
+                }
                 }
             }
-        }
     }
 
   
@@ -304,17 +274,13 @@
 
     .container {
         width: 100%;
-        margin: auto;
-        margin-top: 0;
-        margin-bottom: 0;
-        padding-left: $paddingLeft - 100px;
-        padding-right: $paddingRight - 100px;
+        margin: 0 auto 0;
     }
 
-
-
     .header {
-        .container{
+        padding-left: 112px;
+        padding-right: 112px;
+
             .logo {
                 margin-left: 0px;
             }
@@ -324,22 +290,17 @@
             .nav {
                 display: block;
             }
-         
-        }
     }
     .jumbotron {
-        .container {
             .text{
                 h2 {
                     font-size: 38px;
                 }
             }
-        }
      
     }
 
-    .services{
-        .container {
+    .services {
             .headline {
                 h1 {
                     font-size: 38px;
@@ -351,6 +312,7 @@
             .services_options{
                 .services_oprions_option {
                     .text {
+                        width: 210px;
                         p {
                             font-size: 16px;
                         }
@@ -358,11 +320,9 @@
                 }
              
             }
-        }
     }
     
     .skills {
-        .container {
             .headline{ 
                 h1 {
                     font-size: 38px;
@@ -371,11 +331,9 @@
                     font-size: 18px;
                 }
             }
-        }
     }
 
     .portfolio {
-        .container {
             .headline {
                 h1 {
                     font-size: 38px;
@@ -391,11 +349,9 @@
                     }
                 }
             }
-        }
     }
 
     .aboutUs {
-        .container {
             .headline {
                 h1 {
                     font-size: 38px;
@@ -415,18 +371,18 @@
                        margin-right: 50px;
                     }
                     .quote {
+                        text-align: left;
                         float: right;
                         width: 405px;
+
                     }
 
                 }
             }
 
-        }
     }
 
     .team {
-        .container{
             .headline {
                 h1{
                     font-size: 38px;
@@ -445,17 +401,16 @@
                     }
                     p{
                         font-size: 16px;
+                        width: 210px;
                     }
                     h3 {
                         font-size: 16px;
                     }
                 }
             }
-        }
     }
 
     .getInTouch {
-        .container{
             .headline {
                 h1{
                     font-size: 38px;
@@ -464,43 +419,53 @@
                     font-size: 18px;
                 }
             }
-        }
     }
        
 }
+@media only screen and (min-width:1040px) {
+   .getInTouch{
+        padding-left: 100px;
+        padding-right: 100px;
+    }    
+    .aboutUs {
 
-@media only screen and (min-width:1440px) {
-   .container {
-       width: 1440px;
-       margin: auto;
-       margin-top: 0;
-       margin-bottom: 0;
-       padding-left: $paddingLeft;
-       padding-right: $paddingRight;
-   }
-
-   .portfolio {
-    .container {
-        width: 1440px;
-        padding-left: 170px;
-        padding-right: 170px;
-        
-    }
-   }
-   .aboutUs {
-    .container {
-        width: 1440px;
-        padding-left: 90px;
-        padding-right: 90px;
         .comments {
             .comments_comment {
-                margin-right: -5px;
                 margin-left: 35px;
+                .quote {
+                    width: 405px;
+                    text-align: left;
+         
+                }
+                
             }
-        }
-        
-    }
+        }       
    }
 
+}
+@media only screen and (min-width:1440px) {
+    .header, .getInTouch{
+        padding-left: $paddingLeft;
+        padding-right: $paddingRight;
+    }    
+   
+   .container {
+       width: 1440px;
+       margin: 0 auto 0;
+   }
+
+   .aboutUs {
+
+        .comments {
+            .comments_comment {
+                margin-left: 35px;
+                .quote {
+                    .quote_text {
+                        width: 350px;
+                    }
+                }
+            }
+        }       
+   }
  }
 

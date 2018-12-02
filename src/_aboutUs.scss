@@ -1,6 +1,4 @@
 .aboutUs {
-        
-    .container {
         padding-top: 111px;
         background-color: $aboutUsColor;
         text-align: center;
@@ -14,19 +12,14 @@
                 font-size: 40px;
                 font-weight: 700;
                 text-align: center;
-                margin-bottom: 14px;
-                margin-left: 30px;
-                margin-right: 30px;
-
+                margin: 0 30px 14px 30px;
             }
             .line {
                 height: 4px;
                 width: 87px;
                 background-color: #b73c6d;
                 z-index: 100;
-                margin: auto;
-                margin-top: 0px;
-                margin-bottom: 18px;
+                margin: 0 auto 18px;
             }
             p {
                 font-family: 'TitilliumWeb';
@@ -35,8 +28,7 @@
                 font-weight: 400;
                 line-height: 26px;
                 text-align: center;
-                margin-left: 30px;
-                margin-right: 30px;
+                margin: 0 30px; 
             }      
         }
 
@@ -44,7 +36,7 @@
             .comments_comment {
                 display: inline-block;
                 text-align: center;
-                margin-bottom: 133px;
+                margin-bottom: 116px;
                 .ava {
                     border-radius: 50%;
                     background-color:  #787878;
@@ -53,42 +45,38 @@
                     float: left;
                     margin-bottom: 30px;
                     
-   
                 }
                 .quote {
-                    // width: 405px;
+
                     float: right;
                     text-align: left;
                     .quote_text {
-                        margin-bottom: 23px;
+                        margin-bottom: 26px;
                         color:  $whiteColor;
                         font-size: 21px;
                         font-style: italic;
-                        line-height: 30px;    
+                        line-height: 31px;    
                         p {
                             font-family: 'TitilliumWebItalic';
                         }                 
                     }
 
-                    h4{
-                        font-family: 'TitilliumWebBold';
+                    h4 {
+                        font-family: 'TitilliumWebBold', sans-serif;
                         color:  $whiteColor;
-                        font-size: 24px;
+                        font-size: 22px;
                         font-weight: 700;
-                        line-height: 26px;
+                        line-height: 22px;
                     }
-                    h5{
+                    h5 {
                         font-family: 'TitilliumWeb';
                         color:  #ffdd99;
                         font-size: 18px;
                         font-weight: 400;
-                        line-height: 26px;
+                        line-height: 33px;
+                        margin-bottom: 10px;
                     }
                 }
             }
         }
-
-  
-    }
-
 }

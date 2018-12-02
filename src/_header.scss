@@ -1,12 +1,10 @@
 .header {
-    .container {
         background-color: $headerColor;
         padding-top: $paddingTop;
         
-
         .logo {
             display: inline-block;
         }
         @import '_nav.scss';
-    }
+
 }

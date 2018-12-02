@@ -1,58 +1,46 @@
 .services {
-        
-    .container {
-        padding-top: 112px;
+        padding-top: 107px;
         background-color: $serviceColor;
         text-align: center;
       
-
         .headline {
             text-align: center;
+            margin-bottom: 68px;
             h1 {
                 font-family: 'TitilliumWebBold', sans-serif;
                 font-size: 40px;
                 color: $whiteColor; 
                 letter-spacing: 1px;
-                margin-bottom: 14px;
-                margin-left: 30px;
-                margin-right: 30px;
+                margin: 0 30px 14px 30px;
             }
+            
             .line {
                 height: 4px;
                 width: 87px;
                 background-color: #14a58c;
-                margin: auto;
-                margin-top: 0px;
-                margin-bottom: 19px;
+                margin: 0 auto 22px;
             }
             p {
                 font-family: 'TitilliumWeb', sans-serif;
                 color: $whiteColor;
                 font-size: 18px;
-                margin-bottom: 4px;
-                margin-left: 30px;
-                margin-right: 30px;
-            }   
-            .last_p {
-                margin-bottom: 77px;
-            }   
+                margin: 0 30px 5px 30px;
+            }    
         }
         
         .services_options {
             .services_oprions_option {
               text-align: center;
               display: inline-block;
-              margin-left: 26px;
-              margin-right: 26px;
-                         
-             
+              margin: 0 26px;
+ 
               img {
-                  margin-bottom: 52px;
+                  margin-bottom: 56px;
               }
               h1 {
                 font-size: 24px;
                 font-weight: 700;
-                line-height: 29.907px;
+                line-height: 30px;
                 font-family: 'TitilliumWebBold', sans-serif;
                 color: $whiteColor;
                 margin-bottom: 20px;
@@ -61,18 +49,23 @@
               .text {
                   text-align: center;
                   margin-bottom: 130px;
+                  width: 210px;
+           
+
+                 
                   p {
                     font-family: 'TitilliumWebLight', sans-serif;
                     color: $whiteColor;
                     font-size: 16px;
                     font-weight: 100;
                     margin-bottom: 5px;
+                    line-height: 23px;
                 
                   }
               }
             }
         }
        
-    }
+    
 
 }

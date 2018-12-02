@@ -1,6 +1,7 @@
 .footer {
-    .container {
         background-color: $footerColor;
+        padding-top: 32.5px;
+        padding-bottom: 40px;
         .links {
             text-align: center;
 
@@ -10,18 +11,17 @@
                 color:  $whiteColor;
                 font-size: 24px;
                 font-weight: 500;
-                line-height: 114px;
+                line-height: 50px;
                 text-align: center;
                 margin-left: 25px;
                 margin-right: 25px;
+
             }
             .link {
-                margin-bottom: 40px;
+                
             }
             .twitter {
                 color:  #30bae7;
             }
-        }
-    }
-  
+        } 
 }

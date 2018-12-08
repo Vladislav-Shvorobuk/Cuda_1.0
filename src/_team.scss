@@ -1,38 +1,8 @@
-.team {
- 
+.team_wrapper {
+    .team {
         padding: 113px 0 80px;
         background-color: $teamColor;
-        text-align: center;
       
-        .headline {
-            text-align: center;
-            h1 {
-                font-family: 'TitilliumWebBold', sans-serif;
-                font-size: 40px;
-                color: $bluerColor; 
-                margin: 0 30px 15px 30px;
-                transform: scaleY(1.0321)
-            }
-           
-            .line {
-                height: 4px;
-                width: 87px;
-                background-color: #c8d9e5;
-                z-index: 100;
-                margin: 0 auto 23px;
-
-            }
-            p {
-                font-family: 'TitilliumWeb', sans-serif;
-                color: $bluerColor;
-                font-size: 18px;
-                margin-bottom: 4px;
-                padding-left: 10px;
-                padding-right: 10px;
-                margin: 0 30px 77px 30px;
-            }      
-        }
-
         .team_members {
             .team_members_member {
                 display: inline-block;
@@ -87,6 +57,6 @@
             }
 
         }
-
-
+    }
 }
+

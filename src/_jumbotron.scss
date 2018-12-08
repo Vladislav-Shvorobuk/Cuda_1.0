@@ -1,20 +1,23 @@
-.jumbotron {
-        text-align: center;
+.jumbotron_wrapper {
+    background-color: $headerColor;
+    .jumbotron {
         color: $whiteColor;
-        background-color: $headerColor;
-        padding: 132px 0 147px 0;
-      
-        .text {
+        padding: 71px 0 152px 0;
+        text-align: center;
+             
+        h1 {
+            margin: 0 auto;
+            font-family: 'TitilliumWeb';
+            font-size: 42px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0.9px;
             margin-bottom: 49px;
-            h2 {
-                font-family: 'TitilliumWeb', sans-serif;
-                font-size: 42.5px;
-                font-weight: 700;
-                line-height: 50px;
-            }
         }
         button {
             background-color: #eb7d4b;
         }
    
+    }
 }
+

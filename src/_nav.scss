@@ -1,6 +1,5 @@
 
 .ham{
-  padding-bottom: 30px;
   .fas {
     color: #643a79;
     font-size: 45px;
@@ -30,11 +29,13 @@
       }
   }
 }
+.ham {
+  padding-bottom: 30px;
+}
 
 .ham:hover .navForHam {
   display: block;
   text-align: left;
-  padding-left: 20%;
   li {
     border-radius: $borderRadius;
     width: 77px;
@@ -51,30 +52,30 @@
 
 .nav {
   float: right;
-  padding-top: 5px;
+  text-align: center;
+  padding-top: 8px;
 
   ul {
-    list-style: none;
-    padding-top: 3px;
-
+    
     li {
+      margin-left: 10px;
       display: inline-block;
       border-radius: $borderRadius;
-      width: 77px;
-      height: 32px;
-      line-height: 32px;
+      line-height: 14px;
       text-align: center;
       
+      
       a {
-        font-family: 'TitilliumWeb', sans-serif;
+        display: block;
+        padding: 10px 14px;
+        font-family: 'TitilliumWeb';
         color: $whiteColor;
         font-size: 16px;
         font-weight: 400;
-        text-decoration: none;
       }
     }
 
-    .firstLi {
+    li:hover {
       border-radius: 4px;
       background-color: #643a79;
     }

@@ -1,5 +1,5 @@
 @media only screen and (min-width:320px) and (max-width:479px) {
-    .wrapper{
+    .wrapper {
         .container {
             .rood, .green, .blue {
                 width: 240px;
@@ -13,7 +13,7 @@
                 }
                 p {
                     width: 100%;
-                    font-size: 20px;
+                    font-size: 19px;
                 }
           
             }
@@ -69,6 +69,31 @@
             
             }
 
+        }
+    }
+    .team_wrapper {
+        .team {
+            .team_members {
+                .team_members_member {
+                   width:  100%;
+                   margin-bottom: 100px;
+                   h2 {
+                    font-size: 22px;
+                   }
+                   h3 {
+                    font-size: 19px;
+                   }
+                   p {
+                    font-size: 19px;
+                   }
+                }
+                .top {
+                    margin-bottom: 100px;
+                }
+                .last {
+                    margin-bottom: 0px;
+                }
+            }
         }
     }
 }
@@ -130,6 +155,31 @@
 
         }
     }
+    .team_wrapper {
+        .team {
+            .team_members {
+                .team_members_member {
+                   width:  100%;
+                   margin-bottom: 100px;
+                   h2 {
+                    font-size: 22px;
+                   }
+                   h3 {
+                    font-size: 19px;
+                   }
+                   p {
+                    font-size: 19px;
+                   }
+                }
+                .top {
+                    margin-bottom: 100px;
+                }
+                .last {
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
 
 }
 @media only screen and (min-width:768px) and (max-width:1023px)  {
@@ -171,6 +221,18 @@
 
         }
     }
+    .team_wrapper {
+        .team {
+            .team_members {
+                .team_members_member {
+                    width: 49%;
+                }
+                .top {
+                    margin-bottom: 100px;
+                }
+            }
+        }
+    }
 
 }
 @media only screen and (min-width:1024px) and (max-width:1439px) {
@@ -188,6 +250,7 @@
             }
         }
     }
+
   
    
 }
@@ -204,6 +267,18 @@
                 }
             }
 
+        }
+    }
+    .team_wrapper {
+        .team {
+            .team_members {
+                .team_members_member {
+                    width: 49%;
+                }
+                .top {
+                    margin-bottom: 100px;
+                }
+            }
         }
     }
    

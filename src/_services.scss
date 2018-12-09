@@ -5,13 +5,7 @@
         text-align: center;
         .headline {
             margin-bottom: 81px;
-            h1:before {
-                content: "";
-                position: absolute;
-                top: 50px;
-                left: 47%;
-                height: 4px;
-                width: 87px;
+            .line {
                 background-color: #14a58c;
             }
             p {

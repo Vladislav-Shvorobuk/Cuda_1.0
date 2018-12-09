@@ -175,6 +175,24 @@
         }
     }
 
+    .getInTouch_wrapper {
+        .getInTouch {
+            padding: 70px 0 80px;
+
+            form {
+                width: 80%;
+                input {
+                    float: none;
+                    display: block;
+                    width: 100%;
+                }
+                textarea {
+                    float: none;
+                }
+            }
+        }
+    }
+
 
 }
 @media only screen and (min-width:480px) and (max-width:767px) {
@@ -324,6 +342,24 @@
             }
         }
     }
+    .getInTouch_wrapper {
+        .getInTouch {
+            .headline {
+                
+            }
+            form {
+                width: 75%;
+                input {
+                    float: none;
+                    display: block;
+                    width: 100%;
+                }
+                textarea {
+                    float: none;
+                }
+            }
+        }
+    }
 
 }
 @media only screen and (min-width:768px) and (max-width:1023px)  {
@@ -437,6 +473,16 @@
                     margin-bottom: 0;
                 }
                 
+            }
+        }
+    }
+    .getInTouch_wrapper {
+        .getInTouch {
+            .headline {
+                
+            }
+            form {
+                width: 75%;
             }
         }
     }

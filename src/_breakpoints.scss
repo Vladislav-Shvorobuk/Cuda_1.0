@@ -113,6 +113,35 @@
         }
         
     }
+    .portfolio_wrapper {
+        .portfolio {
+            .filters {
+                width: 87%;
+                li {
+                    width: 45%;
+                }
+                .top {
+                    margin-bottom: 10px;
+                }
+            }
+            .sites {
+                display: block;
+                margin: 0 auto 50px;
+                width: 80%;
+                .sites_site {
+                    margin-bottom: 63px;
+                    h3 {
+                        font-size: 19px;
+                    }
+                }
+                .last {
+                    margin-bottom: 0;
+                }
+               
+            }
+        }
+    }
+
 }
 @media only screen and (min-width:480px) and (max-width:767px) {
     .wrapper {
@@ -199,6 +228,11 @@
     }
     .skills_wrapper {
         .skills {
+            .headline {
+                p {
+                    width: 100%;
+                }
+            }
             .skills_progress {
                 padding-left: 5%;
                 padding-right: 5%;    
@@ -212,9 +246,42 @@
         }
         
     }
+    .portfolio_wrapper {
+        .portfolio {
+            .headline {
+                p {
+                    width: 50%;
+                }
+            }
+            .sites {
+                display: block;
+                margin: 0 auto 80px;
+                width: 80%;
+                .sites_site {
+                    margin-bottom: 63px;
+                    h3 {
+                        font-size: 19px;
+                    }
+                }
+                .last {
+                    margin-bottom: 0;
+                }
+            }
+        }
+     
+    }
 
 }
 @media only screen and (min-width:768px) and (max-width:1023px)  {
+    .wrapper {
+        .container {
+            .headline {
+                padding: 0 50px 0 50px;
+            }
+        }
+
+    }
+
     .header {
         padding-left: 70px;
         padding-right: 70px;
@@ -241,6 +308,7 @@
     }
     .services_wrapper {
         .services {
+          
             .services_options {
                 width: 80%;
                 .services_oprions_option {
@@ -267,6 +335,11 @@
     }
     .skills_wrapper {
         .skills {
+            .headline {
+                p {
+                    width: 100%;
+                }
+            }
             .skills_progress {
                 padding-left: 10%;
                 padding-right: 10%;    
@@ -279,6 +352,24 @@
             }
         }
         
+    }
+    .portfolio_wrapper {
+        .portfolio {
+            .headline {
+                p {
+                    width: 70%;
+                }
+            }
+            .sites_site {
+                margin-bottom: 63px;
+                h3 {
+                    font-size: 19px;
+                }
+            }
+            .last {
+                margin-bottom: 0;
+            }
+        }
     }
 
 }
@@ -329,6 +420,25 @@
             }
         }
     }
+    .portfolio_wrapper {
+        .portfolio {
+            .headline {
+                p {
+                    width: 50%;
+                }
+            }
+            .sites {
+                display: block;
+                margin: 0 auto 80px;
+                width: 80%;
+                .sites_site {
+                    width: 49%;
+                }
+            }
+        }
+     
+    }
+  
    
    
 }

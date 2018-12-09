@@ -96,6 +96,23 @@
             }
         }
     }
+    .skills_wrapper {
+        .skills {
+            .skills_progress {
+                
+  
+                .skill_progress_progress {
+                    padding: 0;
+                    width: 100%;
+                    margin-bottom: 100px;
+                }
+                .last {
+                    margin-bottom: 0px;
+                }
+            }
+        }
+        
+    }
 }
 @media only screen and (min-width:480px) and (max-width:767px) {
     .wrapper {
@@ -108,7 +125,7 @@
                 }
                 p {
                     width: 100%;
-                    font-size: 20px;
+                    font-size: 19px;
                 }
           
             }
@@ -180,6 +197,21 @@
             }
         }
     }
+    .skills_wrapper {
+        .skills {
+            .skills_progress {
+                padding-left: 5%;
+                padding-right: 5%;    
+                .skill_progress_progress {
+                    width: 49%;
+                }
+                .top {
+                    margin-bottom: 100px;
+                }
+            }
+        }
+        
+    }
 
 }
 @media only screen and (min-width:768px) and (max-width:1023px)  {
@@ -233,6 +265,21 @@
             }
         }
     }
+    .skills_wrapper {
+        .skills {
+            .skills_progress {
+                padding-left: 10%;
+                padding-right: 10%;    
+                .skill_progress_progress {
+                    width: 49%;
+                }
+                .top {
+                    margin-bottom: 100px;
+                }
+            }
+        }
+        
+    }
 
 }
 @media only screen and (min-width:1024px) and (max-width:1439px) {
@@ -250,6 +297,7 @@
             }
         }
     }
+   
 
   
    

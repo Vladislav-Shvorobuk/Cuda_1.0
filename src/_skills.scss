@@ -1,28 +1,21 @@
-
-.skills {
-        
-        padding-top: 110px;
-        background-color: $whiteColor;
+.skills_wrapper {
+    background-color: $whiteColor;
+    .skills {
+        padding: 110px 0 119px;
         text-align: center;
 
         .headline {
-
-            h1 {
-                font-family: 'TitilliumWebBold', sans-serif;
-                font-size: 40px;
+            margin-bottom: 88px;
+            h1 {  
                 color: $bluerColor; 
-                margin: 0 30px 14px 30px;
             }
             .line {
                 background-color: #dfe8ed;
             }
             p {
-                font-family: 'TitilliumWeb', sans-serif;
+                width: 40%;
                 color: $bluerColor;
-                font-size: 18px;
-                margin: 0 30px 6px 30px;
-                font-weight: 400;
-
+        
             }      
         }
 
@@ -30,14 +23,14 @@
             .skill_progress_progress {
                 display: inline-block;
                 text-align: center;
-                padding-left: 50px;
-                padding-right: 50px;
-                margin-bottom: 120px;                
+                padding-left: 4%;
+                padding-right: 4%;        
                 .progress {
-                    padding: 50px;
+                    display: inline-block;
+                    padding: 40px 55px;
                     width: 160px;
                     height: 160px;
-                    margin-bottom: 33px;
+                    margin-bottom: 26px;
                     .percent {
                         text-align: center;
                         font-family: 'TitilliumWebLight', sans-serif;
@@ -67,4 +60,7 @@
                 }                
             }                      
         }     
+}
+
+
 }

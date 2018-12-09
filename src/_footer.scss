@@ -1,24 +1,27 @@
-.footer {
-        background-color: $footerColor;
-        padding-top: 32.5px;
-        padding-bottom: 40px;
-        .links {
-            text-align: center;
-
-            a {
-                text-decoration: none;
-                font-family: "TitilliumWebSemiBold", sans-serif;
-                color:  $whiteColor;
-                font-size: 24px;
-                font-weight: 500;
-                line-height: 44px;
-                text-align: center;
-                margin-left: 25px;
-                margin-right: 25px;
-
+.footer_wrapper {
+    background-color: $footerColor;
+    .footer {
+        padding: 35px 0;
+        ul {
+            width: 990px;
+            margin: 0 auto;
+            li {
+                display: inline-block;
+                margin-left: 27px;
+                margin-right: 27px;
+                a {
+                    width: 100%;
+                    font-family: "TitilliumWebSemiBold", sans-serif;
+                    color:  $whiteColor;
+                    font-size: 24px;
+                    font-weight: 500;
+                }
             }
-            .twitter {
+          
+            li:hover a {
                 color:  #30bae7;
             }
         } 
+}
+
 }

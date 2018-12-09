@@ -20,7 +20,7 @@
             display: inline-block;
             width: 80%;
            
-            .team_members_member {
+            .team_members_item {
                 width: 24%;
                 display: inline-block;
                 text-align: center;
@@ -56,9 +56,9 @@
                     width: 200px;
                 }
                 
-                .icons{
+                .icons {
                     text-align: center;
-                    .icons_icon {
+                    .icons_item {
                         display: inline-block;
                         background-color: #bdd1df;
                         width: 33px;

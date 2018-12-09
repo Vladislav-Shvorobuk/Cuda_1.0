@@ -50,7 +50,7 @@
         .services {
             .services_options {
                 width: 90%;
-                .services_oprions_option {
+                .services_oprions_item {
                     width: 100%;
                     margin-bottom: 100px;
                     img {
@@ -74,7 +74,7 @@
     .team_wrapper {
         .team {
             .team_members {
-                .team_members_member {
+                .team_members_item {
                    width:  100%;
                    margin-bottom: 100px;
                    h2 {
@@ -101,7 +101,7 @@
             .skills_progress {
                 
   
-                .skill_progress_progress {
+                .skill_progress_item {
                     padding: 0;
                     width: 100%;
                     margin-bottom: 100px;
@@ -128,7 +128,7 @@
                 display: block;
                 margin: 0 auto 50px;
                 width: 80%;
-                .sites_site {
+                .sites_item {
                     margin-bottom: 63px;
                     h3 {
                         font-size: 19px;
@@ -146,7 +146,7 @@
             .comments {
                 width: 95%;
                 text-align: center;
-                .comments_comment {
+                .comments_item {
                     width: 100%;
                     padding-right: 0;
                     margin-bottom: 80px;
@@ -259,7 +259,7 @@
         .services {
             .services_options {
                 width: 80%;
-                .services_oprions_option {
+                .services_oprions_item {
                     width: 100%;
                     margin-bottom: 100px;
                     p {
@@ -274,7 +274,7 @@
     .team_wrapper {
         .team {
             .team_members {
-                .team_members_member {
+                .team_members_item {
                    width:  100%;
                    margin-bottom: 100px;
                    h2 {
@@ -306,7 +306,7 @@
             .skills_progress {
                 padding-left: 5%;
                 padding-right: 5%;    
-                .skill_progress_progress {
+                .skill_progress_item {
                     width: 49%;
                 }
                 .top {
@@ -320,14 +320,14 @@
         .portfolio {
             .headline {
                 p {
-                    width: 50%;
+                    width: 100%;
                 }
             }
             .sites {
                 display: block;
                 margin: 0 auto 80px;
                 width: 80%;
-                .sites_site {
+                .sites_item {
                     margin-bottom: 63px;
                     h3 {
                         font-size: 19px;
@@ -344,7 +344,7 @@
         .aboutUs {
             .comments {
                 width: 95%;
-                .comments_comment {
+                .comments_item {
                     width: 400px;
                     padding-right: 0;
                     margin-bottom: 130px;
@@ -436,7 +436,7 @@
           
             .services_options {
                 width: 80%;
-                .services_oprions_option {
+                .services_oprions_item {
                     width: 50%;
                 }
                 .top {
@@ -449,7 +449,7 @@
     .team_wrapper {
         .team {
             .team_members {
-                .team_members_member {
+                .team_members_item {
                     width: 49%;
                 }
                 .top {
@@ -468,7 +468,7 @@
             .skills_progress {
                 padding-left: 10%;
                 padding-right: 10%;    
-                .skill_progress_progress {
+                .skill_progress_item {
                     width: 49%;
                 }
                 .top {
@@ -485,7 +485,7 @@
                     width: 70%;
                 }
             }
-            .sites_site {
+            .sites_item {
                 margin-bottom: 63px;
                 h3 {
                     font-size: 19px;
@@ -500,7 +500,7 @@
     .aboutUs_wrapper {
         .aboutUs {
             .comments {
-                .comments_comment {
+                .comments_item {
                     padding-right: 0;
                     margin-bottom: 130px;
                 }
@@ -558,7 +558,7 @@
         .aboutUs {
             .comments {
                 width: 95%;
-                .comments_comment {
+                .comments_item {
                     width: 470px;
                     padding-right: 20px;
                     .quote {
@@ -580,7 +580,7 @@
         .services {
             .services_options {
                 width: 70%;
-                .services_oprions_option {
+                .services_oprions_item {
                     width: 50%;
                 }
                 .top {
@@ -593,7 +593,7 @@
     .team_wrapper {
         .team {
             .team_members {
-                .team_members_member {
+                .team_members_item {
                     width: 49%;
                 }
                 .top {
@@ -613,7 +613,7 @@
                 display: block;
                 margin: 0 auto 80px;
                 width: 80%;
-                .sites_site {
+                .sites_item {
                     width: 49%;
                 }
             }

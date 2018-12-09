@@ -37,14 +37,3 @@
     }
 
 }
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  .clearfix::before {
-    content: "";
-    clear: both;
-    display: table;
-  }
